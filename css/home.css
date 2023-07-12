@@ -50,7 +50,7 @@ body {
 
 .bookcover3 {
   width: 13.5vw;
-  height: 272px;
+  height: 28vh;
   background-color: white;
   float: left;
   border-radius: 2%;
@@ -172,7 +172,7 @@ body {
 }
 
 .is {
-  color: aqua;
+  color: rgb(45, 209, 209);
   left: 1rem;
   bottom: -0.15rem;
   position: relative;
@@ -352,12 +352,6 @@ hr {
   top: 9.375rem;
 }
 
-#side {
-  position: absolute;
-  bottom: 34.5rem;
-  left: 77rem;
-}
-
 .mini {
   left: 26em;
   bottom: 7rem;
@@ -380,7 +374,7 @@ hr {
 
 .NEWs{
   position: relative;
-  right: 12rem;
+  right: 11.5rem;
   bottom: 22.4rem;
   font-size: 1.3rem;
 }
@@ -404,7 +398,7 @@ hr {
   left: 24rem;
   bottom: 31rem;
   margin: 2%;
-  background-color: #ffabab;
+  background-color: #84a3f3;
   position: absolute;
   border-radius: 10%;
 }
@@ -422,7 +416,7 @@ hr {
   left: 24rem;
   bottom: 29.5rem;
   margin: 2%;
-  background-color: #ffabab;
+  background-color: #84a3f3;
   position: absolute;
   border-radius: 10%;
 }
@@ -440,7 +434,7 @@ hr {
   left: 24rem;
   bottom: 28rem;
   margin: 2%;
-  background-color: #ffabab;
+  background-color: #84a3f3;
   position: absolute;
   border-radius: 10%;
 }
@@ -454,21 +448,21 @@ hr {
 
 .dkd-menu {
   right: 45rem;
-  bottom: 29.1rem;
+  bottom: 29.5rem;
   position: relative;
   font-size: 0.8rem;
 }
 
 .dkd-menu2 {
   left: 28.6rem;
-  bottom: 28.95rem;
+  bottom: 29.3rem;
   position: relative;
   font-size: 0.8rem;
 }
 
 .dkd-menu3 {
   left: 28.7rem;
-  bottom: 28.8rem;
+  bottom: 29.2rem;
   position: relative;
   font-size: 0.8rem;
 }
@@ -538,4 +532,21 @@ hr {
   left: 65em;
   bottom: 30.6rem;
   font-size: 0.8rem;
+}
+.butt{
+  position: absolute;
+  left: 76.2rem;
+  bottom: 27.5rem;
+}
+
+.butt2{
+  position: absolute;
+  left: 83.5rem;
+  bottom: 27.5rem;
+}
+
+.pro{
+  left: 76.8rem;
+  bottom: 29.6rem;
+  position: absolute;
 }
