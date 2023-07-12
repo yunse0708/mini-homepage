@@ -1,3 +1,12 @@
+document.getElementById('startButton').addEventListener('click', startGame);
+
+function startGame() {
+  // 게임 시작 버튼을 숨깁니다.
+  document.getElementById('startButton').style.display = 'none';
+  // 게임 화면을 보이도록 설정합니다.
+  document.getElementById('gamePage').classList.remove('hidden');
+}
+
 const cards = document.querySelectorAll('.memory-card');
 
 let hasFlippedCard = false;

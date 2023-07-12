@@ -186,6 +186,14 @@ body {
   font-size: 0.9rem;
 }
 
+.Phrases {
+  height: 0.55rem;
+  bottom: -0.9rem;
+  left: 0.7rem;
+  position: relative;
+  font-size: 0.85rem;
+}
+
 #menub {
   width: 10rem;
   height: 10rem;
@@ -362,4 +370,31 @@ hr {
   left: 76.8rem;
   bottom: 29.6rem;
   position: absolute;
+}
+
+.booox{
+  width: 45vw;
+  height: 4vh;
+  background-color: #c9d4da;
+  position: absolute;
+  left: 26rem;
+  bottom: 34rem;
+}
+
+.bo{
+  position: absolute;
+  bottom: 0.3rem;
+  left: 1rem;
+}
+
+.ox{
+  left: 31rem;
+  bottom: 0.3rem;
+  position: absolute;
+}
+
+.popo{
+  position: absolute;
+  left: 26rem;
+  bottom: 7rem;
 }
