@@ -20,7 +20,7 @@ p {
 body {
   height: 100%;
   width: 100%;
-  background-image: url("../html/image/background2.gif");
+  background-image: url("../image/background2.gif");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -99,6 +99,9 @@ body {
   border-top: 0.0031rem solid black;
   border-right: 0.0031rem solid black;
   border-bottom: 0.0031rem solid black;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
 }
 
 .column1 {
@@ -123,6 +126,18 @@ body {
   border-radius: 2%;
   position: absolute;
   border: 0.0625rem solid black;
+}
+
+.cjqqkrtm {
+  position: absolute;
+  width: 45vw;
+  height: 50vh;
+  left: 26rem;
+  bottom: 7rem;
+  background-color: #ffffff;
+  border-radius: 2%;
+  overflow-y: scroll;
+  height: 30rem;
 }
 
 .row1 {
@@ -293,7 +308,6 @@ a {
   left: 1.1rem;
 }
 
-
 .profile-dropdown {
   border: 0.0625rem solid #c9d4da;
   padding: 0.25rem;
@@ -365,36 +379,94 @@ hr {
   bottom: 27.5rem;
 }
 
-
-.pro{
+.pro {
   left: 76.8rem;
   bottom: 29.6rem;
   position: absolute;
 }
 
-.booox{
-  width: 45vw;
+.booox {
+  width: 42vw;
   height: 4vh;
+  left: 1rem;
   background-color: #c9d4da;
   position: absolute;
-  left: 26rem;
-  bottom: 34rem;
 }
 
-.bo{
+.bo {
   position: absolute;
-  bottom: 0.3rem;
+  left: 0.5rem;
+  top: 0.2rem;
+}
+
+.ox {
+  position: absolute;
+  color: #000;
+  font-size: 0.7rem;
+  left: 3.5rem;
+  top: 0.6rem;
+}
+
+.popo {
+  position: absolute;
+  top: 1.8rem;
   left: 1rem;
 }
 
-.ox{
-  left: 31rem;
-  bottom: 0.3rem;
+.boox {
+  width: 42vw;
+  height: 4vh;
+  left: 1rem;
+  top: 28.1rem;
+  background-color: #c9d4da;
   position: absolute;
 }
 
-.popo{
+.boow {
   position: absolute;
-  left: 26rem;
-  bottom: 7rem;
+  left: 0.5rem;
+  top: 0.3rem;
+}
+
+.ow {
+  position: absolute;
+  color: #000;
+  font-size: 0.7rem;
+  left: 3.5rem;
+  top: 0.6rem;
+}
+
+.powo {
+  position: absolute;
+  top: 30rem;
+  left: 1rem;
+}
+
+.bw {
+  width: 42vw;
+  height: 4vh;
+  left: 1rem;
+  top: 57rem;
+  background-color: #c9d4da;
+  position: absolute;
+}
+
+.bow {
+  position: absolute;
+  left: 0.5rem;
+  top: 0.3rem;
+}
+
+.oww {
+  position: absolute;
+  color: #000;
+  font-size: 0.7rem;
+  left: 3.5rem;
+  top: 0.6rem;
+}
+
+.pwwo {
+  position: absolute;
+  top: 58.8rem;
+  left: 1rem;
 }
