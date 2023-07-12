@@ -1,0 +1,541 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  left: 80rem;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url("../html/image/background2.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#box {
+  margin-top: 72px;
+  margin-left: 106px;
+}
+
+.bookcover1 {
+  width: 17.8vw;
+  height: 81.5vh;
+  background-color: white;
+  opacity: 0.5;
+  float: left;
+  border-radius: 2.5%;
+}
+
+.bookcover2 {
+  width: 52vw;
+  height: 81.5vh;
+  background-color: white;
+  opacity: 0.5;
+  float: left;
+  border-radius: 2%;
+}
+
+.bookcover3 {
+  width: 13.5vw;
+  height: 272px;
+  background-color: white;
+  float: left;
+  border-radius: 2%;
+  margin-left: 2.5em;
+  border-top-color: #000;
+  border-bottom-color: #000;
+  border-left-color: #000;
+  border-right-color: #000;
+  border-style: solid;
+  border-width: 0.8px;
+}
+
+.bookdot {
+  position: relative;
+  left: 1.2188rem;
+  top: 1.1875rem;
+  width: 64.3rem;
+  height: 35.5rem;
+  border: 0.0625rem dashed blue;
+  border-radius: 1.5%;
+}
+
+.page1 {
+  width: 15.5rem;
+  height: 35rem;
+  background-color: white;
+  float: left;
+  left: 8.125rem;
+  top: 5.9375rem;
+  border-radius: 2.5%;
+  position: absolute;
+  border-top: 0.0031rem solid black;
+  border-bottom: 0.0031rem solid black;
+  border-left: 0.0031rem solid black;
+}
+
+.page2 {
+  width: 48.3rem;
+  height: 35rem;
+  background-color: whitesmoke;
+  float: left;
+  left: 23.625rem;
+  top: 5.9375rem;
+  border-radius: 2%;
+  position: absolute;
+  border-top: 0.0031rem solid black;
+  border-right: 0.0031rem solid black;
+  border-bottom: 0.0031rem solid black;
+}
+
+.column1 {
+  bottom: 4.25rem;
+  left: 6.75rem;
+  margin: 1.875rem;
+  width: 14.8rem;
+  height: 31.5rem;
+  border-radius: 2.5%;
+  background-color: rgb(236, 236, 234);
+  position: absolute;
+  border: 0.0625rem solid black;
+}
+
+.column2 {
+  width: 47.5rem;
+  height: 31.5rem;
+  background-color: white;
+  float: left;
+  left: 23.9375rem;
+  top: 8.875rem;
+  border-radius: 2%;
+  position: absolute;
+  border: 0.0625rem solid black;
+}
+
+.row1 {
+  margin: 2%;
+  left: 8.75rem;
+  bottom: 36.125rem;
+  position: absolute;
+}
+
+.row2 {
+  color: blue;
+  margin: 2%;
+  left: 22.8125rem;
+  font-size: 1.3rem;
+  bottom: 35.9375rem;
+  position: absolute;
+}
+
+.column3 {
+  bottom: 5.1875rem;
+  left: 7.1865rem;
+  margin: 1.875rem;
+  width: 14.6vw;
+  height: 64.2vh;
+  border-radius: 2.5%;
+  background-color: white;
+  position: absolute;
+}
+
+.profile {
+  position: absolute;
+  bottom: 24.5625rem;
+  left: 10.1875rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.today {
+  width: 12.2vw;
+  height: 4vh;
+  right: 59.2rem;
+  top: 10rem;
+  border-radius: 5%;
+  position: absolute;
+  background-color: white;
+  border: 1px solid #838383;
+}
+
+.is {
+  color: aqua;
+  left: 1rem;
+  bottom: -0.15rem;
+  position: relative;
+}
+
+.toto {
+  color: #000;
+  left: 6rem;
+  bottom: 1rem;
+  position: relative;
+  font-size: 0.9rem;
+}
+
+.Phrases {
+  height: 0.55rem;
+  bottom: -0.9rem;
+  left: 0.7rem;
+  position: relative;
+  font-size: 0.85rem;
+}
+
+#menub {
+  width: 10rem;
+  height: 10rem;
+  margin: 2%;
+  left: 69.375rem;
+  bottom: 21.875rem;
+  position: absolute;
+  border-radius: 2.5%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.menu--profile {
+  color: white;
+}
+
+.menu1 {
+  width: 4.0625rem;
+  height: 2.1875rem;
+  bottom: 10.625rem;
+  margin: 2%;
+  border-top-right-radius: 15%;
+  border-bottom-right-radius: 15%;
+  background-color: white;
+  position: absolute;
+  border-top: 0.0031rem solid black;
+  border-right: 0.0031rem solid black;
+  border-bottom: 0.0031rem solid black;
+}
+
+.menu2 {
+  width: 4.0625rem;
+  height: 2.1875rem;
+  bottom: 8.125rem;
+  margin: 2%;
+  border-top-right-radius: 15%;
+  border-bottom-right-radius: 15%;
+  background-color: skyblue;
+  position: absolute;
+  border-top: 0.0031rem solid black;
+  border-right: 0.0031rem solid black;
+  border-bottom: 0.0031rem solid black;
+}
+
+.menu3 {
+  width: 4.0625rem;
+  height: 2.1875rem;
+  bottom: 5.625rem;
+  margin: 2%;
+  border-top-right-radius: 15%;
+  border-bottom-right-radius: 15%;
+  background-color: yellowgreen;
+  position: absolute;
+  border-top: 0.0031rem solid black;
+  border-right: 0.0031rem solid black;
+  border-bottom: 0.0031rem solid black;
+}
+
+.menu4 {
+  width: 4.0625rem;
+  height: 2.1875rem;
+  bottom: 3.125rem;
+  margin: 2%;
+  border-top-right-radius: 15%;
+  border-bottom-right-radius: 15%;
+  background-color: orange;
+  position: absolute;
+  border-top: 0.0031rem solid black;
+  border-right: 0.0031rem solid black;
+  border-bottom: 0.0031rem solid black;
+}
+
+.menu5 {
+  position: absolute;
+  bottom: 11.3125rem;
+  left: 1.5625rem;
+}
+
+.menu6 {
+  position: absolute;
+  bottom: 8.75rem;
+  left: 0.75rem;
+}
+
+.menu7 {
+  position: absolute;
+  bottom: 6.25rem;
+  left: 0.75rem;
+}
+
+.menu8 {
+  position: absolute;
+  bottom: 3.75rem;
+  left: 0.75rem;
+}
+
+.profile-dropdown {
+  border: 0.0625rem solid #c9d4da;
+  padding: 0.25rem;
+  left: 10.3125rem;
+  bottom: 8.125rem;
+  margin-top: 0.625rem;
+  font-size: 12.8px;
+  position: absolute;
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 4.5008px solid transparent;
+  border-right: 4.5008px solid transparent;
+  border-top: 5px solid #838383;
+}
+
+.dropdown-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 176px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.profile-dropdown:hover > .dropdown-content {
+  display: block;
+}
+
+.dropdown-content > a {
+  display: block;
+  background-color: #f9f9f9;
+  box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2);
+  width: 100%;
+  padding: 0.375rem;
+  color: black;
+  text-decoration: none;
+}
+
+.dropdown-content > a:hover {
+  background-color: #f1f1f1;
+}
+
+hr {
+  position: absolute;
+  width: 117%;
+  height: 3.125rem;
+  right: 59.3125rem;
+  top: 9.375rem;
+}
+
+#side {
+  position: absolute;
+  bottom: 34.5rem;
+  left: 77rem;
+}
+
+.mini {
+  left: 26em;
+  bottom: 7rem;
+  position: absolute;
+}
+
+.room {
+  bottom: 27.2rem;
+  left: 26rem;
+  position: absolute;
+  font-size: 1.5rem;
+}
+
+.up {
+  bottom: 34.9rem;
+  left: 26rem;
+  position: absolute;
+  font-size: 1.5rem;
+}
+
+.NEWs{
+  position: relative;
+  right: 12rem;
+  bottom: 22.4rem;
+  font-size: 1.3rem;
+}
+
+.line {
+  border-top: 1px solid #c9d4da;
+  position: absolute;
+  width: 22%;
+  height: 3.125rem;
+  right: 49rem;
+  top: 12rem;
+}
+
+.red-menu {
+  color: white;
+}
+
+.red1 {
+  width: 2.5vw;
+  height: 2.5vh;
+  left: 24rem;
+  bottom: 31rem;
+  margin: 2%;
+  background-color: #ffabab;
+  position: absolute;
+  border-radius: 10%;
+}
+
+.red4 {
+  position: absolute;
+  bottom: 33.1rem;
+  left: 26.18rem;
+  font-size: 0.1rem;
+}
+
+.red2 {
+  width: 2.5vw;
+  height: 2.5vh;
+  left: 24rem;
+  bottom: 29.5rem;
+  margin: 2%;
+  background-color: #ffabab;
+  position: absolute;
+  border-radius: 10%;
+}
+
+.red6 {
+  position: absolute;
+  bottom: 31.6rem;
+  left: 26.18rem;
+  font-size: 0.1rem;
+}
+
+.red3 {
+  width: 2.5vw;
+  height: 2.5vh;
+  left: 24rem;
+  bottom: 28rem;
+  margin: 2%;
+  background-color: #ffabab;
+  position: absolute;
+  border-radius: 10%;
+}
+
+.red7 {
+  position: absolute;
+  bottom: 30.1rem;
+  left: 26.18rem;
+  font-size: 0.1rem;
+}
+
+.dkd-menu {
+  right: 45rem;
+  bottom: 29.1rem;
+  position: relative;
+  font-size: 0.8rem;
+}
+
+.dkd-menu2 {
+  left: 28.6rem;
+  bottom: 28.95rem;
+  position: relative;
+  font-size: 0.8rem;
+}
+
+.dkd-menu3 {
+  left: 28.7rem;
+  bottom: 28.8rem;
+  position: relative;
+  font-size: 0.8rem;
+}
+
+.line2{
+    border-top: 1px dashed #c9d4da;
+    position: absolute;
+    width: 22%;
+    height: 3.125rem;
+    left: 48rem;
+    bottom: 31.45rem;
+}
+
+.line3{
+  border-top: 1px dashed #c9d4da;
+  position: absolute;
+  width: 22%;
+  height: 3.125rem;
+  left: 48rem;
+  bottom: 29.1em;
+}
+
+.line4{
+  border-top: 1px dashed #c9d4da;
+  position: absolute;
+  width: 22%;
+  height: 3.125rem;
+  left: 48rem;
+  bottom: 26.8rem;
+}
+.juke{
+  position: absolute;
+  left: 48rem;
+  bottom: 32.8rem;
+  font-size: 0.9rem;
+}
+.num{
+  position: absolute;
+  left: 65em;
+  bottom: 32.9rem;
+  font-size: 0.8rem;
+}
+
+.photo{
+  position: absolute;
+  left: 59rem;
+  bottom: 32.8rem;
+  font-size: 0.9rem;
+}
+
+.be{
+  position: absolute;
+  left: 77.5em;
+  bottom: 32.9rem;
+  font-size: 0.8rem;
+}
+
+.bu{
+  position: absolute;
+  left: 48rem;
+  bottom: 30.5rem;
+  font-size: 0.9rem;
+}
+
+.r{
+  position: absolute;
+  left: 65em;
+  bottom: 30.6rem;
+  font-size: 0.8rem;
+}

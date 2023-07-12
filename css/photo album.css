@@ -1,0 +1,30 @@
+.scroll{
+    width: 15rem;
+    height: 15.625rem;  
+    overflow-y: scroll;
+    color: white;
+    bottom: 10rem;
+    margin-right: 10rem;
+  
+  }
+  
+  /* 스크롤바 설정*/
+  .page2::-webkit-scrollbar{
+      width: 10px;
+  }
+  
+  /* 스크롤바 막대 설정*/
+  .page2::-webkit-scrollbar-thumb{
+    background-color: rgba(255,255,255,1);
+    /* 스크롤바 둥글게 설정    */
+    border-radius: 10px;
+  }
+  
+  /* 스크롤바 뒷 배경 설정*/
+  .page2::-webkit-scrollbar-track{
+    background-color: rgba(0,0,0,0);
+  }
+  
+#side{
+
+}
