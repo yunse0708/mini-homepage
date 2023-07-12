@@ -18,7 +18,7 @@ p {
 body {
   height: 100%;
   width: 100%;
-  background-image: url("../html/image/background2.gif");
+  background-image: url("../image/background2.gif");
   background-repeat: no-repeat;
   background-size: cover;
 }
