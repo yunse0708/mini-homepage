@@ -152,44 +152,380 @@ body {
 
 .profile {
   position: absolute;
-  bottom: 24.5625rem;
-  left: 10.1875rem;
+  bottom: 22em;
+  left: 10.2rem;
   overflow: hidden;
   border-radius: 0.5rem;
 }
 
 .today {
-  width: 12.2vw;
+  width: 12.4vw;
   height: 4vh;
-  right: 59.2rem;
-  top: 10rem;
+  right: 73.8em;
+  bottom: 34rem;
   border-radius: 5%;
   position: absolute;
   background-color: white;
   border: 1px solid #838383;
 }
 
-.is {
-  color: aqua;
-  left: 1rem;
-  bottom: -0.15rem;
-  position: relative;
+.th {
+  position: absolute;
+  left: 14.25rem;
+  bottom: 34.25rem;
 }
 
-.toto {
-  color: #000;
-  left: 6rem;
-  bottom: 1rem;
-  position: relative;
+.name {
+  position: absolute;
+  left: 10rem;
+  bottom: 20.5rem;
+}
+
+.skaao {
+  position: absolute;
+  left: 10rem;
+  bottom: 19rem;
+}
+
+.birthday {
+  position: absolute;
+  left: 10rem;
+  bottom: 17.5rem;
+}
+
+.phone {
+  position: absolute;
+  left: 10rem;
+  bottom: 16rem;
+}
+
+.fan {
+  position: absolute;
+  color: #a1a0a0;
+  font-size: 1rem;
+  left: 27rem;
+  bottom: 33rem;
+}
+
+.dms {
+  position: absolute;
+  color: rgb(255, 149, 0);
+  font-size: 2rem;
+  left: 37rem;
+  bottom: 32.8rem;
+}
+
+.dnd {
+  position: absolute;
+  width: 7.5vw;
+  height: 3vh;
+  left: 58.5rem;
+  bottom: 33rem;
+  background-color: white;
+  border: 1px solid #abaaaa;
+}
+
+.dld {
+  color: #abaaaa;
   font-size: 0.9rem;
 }
 
-.Phrases {
-  height: 0.55rem;
-  bottom: -0.9rem;
-  left: 0.7rem;
+.dmd {
+  position: absolute;
+  color: #a1a0a0;
+  font-size: 1rem;
+  left: 50.5rem;
+  bottom: 33rem;
+}
+
+.rja {
+  position: absolute;
+  color: #a1a0a0;
+  font-size: 1rem;
+  left: 64.3rem;
+  bottom: 33.1rem;
+}
+.qnsemf {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.soul {
+  position: absolute;
+  left: 27rem;
+  bottom: 26rem;
+}
+
+.soul2 {
+  width: 6.5vw;
+  height: 2.5vh;
+  left: 27rem;
+  bottom: 26.25rem;
+  position: absolute;
+  background-color: #282727;
+  opacity: 0.5;
+}
+
+.soul3 {
+  color: white;
   position: relative;
-  font-size: 0.85rem;
+  right: -25px;
+  bottom: 0.1rem;
+}
+
+.woo{
+  position: absolute;
+  left: 33.5rem;
+  bottom: 26rem;
+}
+
+.woo2{
+  width: 6.5vw;
+  height: 2.5vh;
+  left: 33.5rem;
+  bottom: 26.25rem;
+  position: absolute;
+  background-color: #282727;
+  opacity: 0.5;
+}
+
+.woo3{
+  color: white;
+  position: relative;
+  right: -25px;
+  bottom: 0.1rem;
+}
+
+.gu{
+  position: absolute;
+  left: 40rem;
+  bottom: 26rem;
+}
+
+.gu2{
+  width: 6.5vw;
+  height: 2.5vh;
+  left: 40rem;
+  bottom: 26.25rem;
+  position: absolute;
+  background-color: #282727;
+  opacity: 0.5;
+}
+
+.gu3{
+  color: white;
+  position: relative;
+  right: -25px;
+  bottom: 0.1rem;
+}
+
+.young{
+  position: absolute;
+  left: 46.5rem;
+  bottom: 26rem;
+}
+
+.young2{
+  width: 6.5vw;
+  height: 2.5vh;
+  left: 46.5rem;
+  bottom: 26.25rem;
+  position: absolute;
+  background-color: #282727;
+  opacity: 0.5;
+}
+
+.young3{
+  color: white;
+  position: relative;
+  right: -25px;
+  bottom: 0.1rem;
+}
+
+.do{
+  position: absolute;
+  left: 53rem;
+  bottom: 26rem;
+}
+
+.do2{
+  width: 6.5vw;
+  height: 2.5vh;
+  left: 53rem;
+  bottom: 26.25rem;
+  position: absolute;
+  background-color: #282727;
+  opacity: 0.5;
+}
+
+.do3{
+  color: white;
+  position: relative;
+  right: -25px;
+  bottom: 0.1rem;
+}
+
+.ta{
+  position: absolute;
+  left: 59.5rem;
+  bottom: 26rem;
+}
+
+.ta2{
+  width: 6.5vw;
+  height: 2.5vh;
+  left: 59.5rem;
+  bottom: 26.25rem;
+  position: absolute;
+  background-color: #282727;
+  opacity: 0.5;
+}
+
+.ta3{
+  color: white;
+  position: relative;
+  right: -25px;
+  bottom: 0.1rem;
+}
+
+.ha {
+  position: absolute;
+  left: 27rem;
+  bottom: 19.5rem;
+}
+
+.ha2 {
+  width: 6.5vw;
+  height: 2.5vh;
+  left: 27rem;
+  bottom: 19.8rem;
+  position: absolute;
+  background-color: #282727;
+  opacity: 0.5;
+}
+
+.ha3 {
+  color: white;
+  position: relative;
+  right: -25px;
+  bottom: 0.1rem;
+}
+
+.yellow{
+  position: absolute;
+  left: 33.5rem;
+  bottom: 19.5rem;
+}
+
+.yellow2{
+  width: 6.5vw;
+  height: 2.5vh;
+  left: 33.5rem;
+  bottom: 19.8rem;
+  position: absolute;
+  background-color: #282727;
+  opacity: 0.5;
+}
+
+.yellow3{
+  color: white;
+  position: relative;
+  right: -25px;
+  bottom: 0.1rem;
+}
+
+.je{
+  position: absolute;
+  left: 40rem;
+  bottom: 19.5rem;
+}
+
+.je2{
+  width: 6.5vw;
+  height: 2.5vh;
+  left: 40rem;
+  bottom: 19.8rem;
+  position: absolute;
+  background-color: #282727;
+  opacity: 0.5;
+}
+
+.je3{
+  color: white;
+  position: relative;
+  right: -25px;
+  bottom: 0.1rem;
+}
+
+.ja{
+  position: absolute;
+  left: 46.5rem;
+  bottom: 19.5rem;
+}
+
+.ja2{
+  width: 6.5vw;
+  height: 2.5vh;
+  left: 46.5rem;
+  bottom: 19.8rem;
+  position: absolute;
+  background-color: #282727;
+  opacity: 0.5;
+}
+
+.ja3{
+  color: white;
+  position: relative;
+  right: -25px;
+  bottom: 0.1rem;
+}
+
+.ye{
+  position: absolute;
+  left: 53rem;
+  bottom: 19.5rem;
+}
+
+.ye2{
+  width: 6.5vw;
+  height: 2.5vh;
+  left: 53rem;
+  bottom: 19.8rem;
+  position: absolute;
+  background-color: #282727;
+  opacity: 0.5;
+}
+
+.ye3{
+  color: white;
+  position: relative;
+  right: -25px;
+  bottom: 0.1rem;
+}
+
+.wow{
+  position: absolute;
+  left: 59.5rem;
+  bottom: 19.5rem;
+}
+
+.wow2{
+  width: 6.5vw;
+  height: 13vh;
+  left: 59.5rem;
+  bottom: 19.8rem;
+  position: absolute;
+  background-color: #282727;
+  opacity: 0.5;
+}
+
+.wow3{
+  color: white;
+  position: relative;
+  right: -24px;
+  bottom: 2.1rem;
+  font-size: 5rem;
 }
 
 #menub {
@@ -366,4 +702,10 @@ hr {
   left: 76.8rem;
   bottom: 29.6rem;
   position: absolute;
+}
+
+.yeseol {
+  position: absolute;
+  left: 25rem;
+  bottom: 23.5rem;
 }

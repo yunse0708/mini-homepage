@@ -24,8 +24,8 @@ button {
 }
 #gamePage {
   position: relative;
-  bottom: -50px;
-  margin: 0 auto;
+  top: 0.5%;
+  margin: auto;
 }
 .memory-game {
   width: 640px;
