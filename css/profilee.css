@@ -524,7 +524,7 @@ body {
   color: white;
   position: relative;
   right: -24px;
-  bottom: 2.1rem;
+  bottom: 2.2rem;
   font-size: 5rem;
 }
 
@@ -708,4 +708,10 @@ hr {
   position: absolute;
   left: 25rem;
   bottom: 23.5rem;
+}
+
+.doto{
+  position: absolute;
+  left: 33rem;
+  bottom: 6rem;
 }
