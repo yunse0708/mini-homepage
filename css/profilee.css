@@ -687,6 +687,7 @@ hr {
 }
 
 .butt {
+  width: 16rem;
   position: absolute;
   left: 76.2rem;
   bottom: 27.5rem;
@@ -694,8 +695,13 @@ hr {
 
 .butt2 {
   position: absolute;
-  left: 83.5rem;
+  left: 84.6rem;
   bottom: 27.5rem;
+}
+
+.messi {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .pro {
