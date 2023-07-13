@@ -108,7 +108,7 @@ body {
   width: 14.8rem;
   height: 31.5rem;
   border-radius: 2.5%;
-  background-color: rgb(236, 236, 234);
+  background-color: #ececea;
   position: absolute;
   border: 0.0625rem solid black;
 }
@@ -172,7 +172,7 @@ body {
 }
 
 .is {
-  color: rgb(45, 209, 209);
+  color: #2dd1d1;
   left: 1rem;
   bottom: -0.15rem;
   position: relative;
@@ -522,7 +522,7 @@ hr {
 
 .bu {
   position: absolute;
-  left: 48.2rem;
+  left: 48.15rem;
   bottom: 30.5rem;
   font-size: 0.9rem;
 }
